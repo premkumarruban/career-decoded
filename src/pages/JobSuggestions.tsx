@@ -177,7 +177,7 @@ const JobSuggestions = () => {
                       <SelectValue placeholder="Select location" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="">All Locations</SelectItem>
+                      <SelectItem value="all">All Locations</SelectItem>
                       <SelectItem value="remote">Remote</SelectItem>
                       <SelectItem value="san-francisco">San Francisco, CA</SelectItem>
                       <SelectItem value="new-york">New York, NY</SelectItem>
@@ -192,7 +192,7 @@ const JobSuggestions = () => {
                       <SelectValue placeholder="Experience level" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="">All Levels</SelectItem>
+                      <SelectItem value="all">All Levels</SelectItem>
                       <SelectItem value="entry">Entry Level (0-2 years)</SelectItem>
                       <SelectItem value="mid">Mid Level (2-5 years)</SelectItem>
                       <SelectItem value="senior">Senior Level (5+ years)</SelectItem>
